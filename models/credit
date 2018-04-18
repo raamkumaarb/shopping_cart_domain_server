@@ -1,0 +1,20 @@
+import mongoose from 'mongoose'
+const Promise = require('bluebird')
+Promise.promisifyAll(mongoose)
+const Schema = mongoose.Schema
+
+const creditSchema = new Schema({
+  credit_id: String,
+  user_id: {type: Schema.Types.ObjectId, ref: 'User'},
+  payment_id: String,
+  state: { type: String, lowercase: true },
+  amount: Number,
+  description: String,
+  created_time: Date,
+  state:String,
+  type:String
+})
+
+const ModelClass = mongoose.model('Credit', creditSchema)
+
+export default ModelClass
