@@ -1,4 +1,4 @@
-# SESprout - Client
+# Domain Shopping Cart - Server
 
 ```
 	> npm install
