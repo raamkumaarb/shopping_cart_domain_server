@@ -1,6 +1,9 @@
 # Domain Shopping Cart - Server
 
-```
-	> npm install
-	> npm start
-```
+# **NodeJS, KoaJS, JWT, MongoDB, Mongoose, ChaiJS, ShouldJS**
+
+Clone the git repo
+
+Install necessary node modules using - `npm install`
+
+Run using - `npm start`
